@@ -34,8 +34,14 @@ body{
 /*.text2:first-letter{*/
   /*text-transform: uppercase;*/
 /*}*/
+.header-padding-original{
+  padding-top: 10px;
+}
 .header-padding{
 	padding-top: 20px;
+}
+.education-padding-top{
+  padding-top: 80px;
 }
 .education-padding{
 	padding-top: 60px;
@@ -58,7 +64,7 @@ body{
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
 	text-align:center;
-	padding-top: 200px;
+	padding-top: 130px;
 	text-transform: lowercase;
 	/*line-height: 145%;*/
 	font-size: 55px;
@@ -143,7 +149,8 @@ body{
   /*border: 1px solid red;*/
 }
 .col-2{
-  width: 16.66666%;
+  /*width: 16.66666%;*/
+  width: 13%;
   float: left;
   border: 1px solid transparent;
 }
@@ -215,4 +222,9 @@ button{
 
 .center{
   text-align: center;
+}
+
+hr {
+  border-top: 3px double #000000;
+  width: 60%;
 }
