@@ -1,0 +1,211 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+  /*padding-left: 2%;*/
+  /*padding-top: 1%;*/
+  /*padding-right: 2%;*/
+  /*padding-bottom: 1%;*/
+  /*border-radius: 50px;*/
+}
+
+.courier-font{
+  font-family: Courier New;
+}
+
+/*.text2:first-letter{*/
+  /*text-transform: uppercase;*/
+/*}*/
+.header-padding{
+	padding-top: 20px;
+}
+.education-padding{
+	padding-top: 60px;
+}
+.content-padding{
+	padding-top: 10px;
+}
+.info-padding{
+	padding-top: 30px;
+}
+
+.indent{
+	text-indent: 10px;
+}
+
+
+
+.text2{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	padding-top: 200px;
+	text-transform: lowercase;
+	/*line-height: 145%;*/
+	font-size: 55px;
+	font-variant: small-caps;
+}
+
+.text3{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	/*margin: 50px auto;*/
+	text-transform: lowercase;
+	/*line-height: 145%;*/
+	font-size: 20px;
+	font-variant: small-caps;
+}
+
+.text4{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	/*text-align:center;*/
+	/*margin: 50px auto;*/
+	text-transform: lowercase;
+	/*line-height: 145%;*/
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.text5{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	/*text-align:center;*/
+	/*margin: 50px auto;*/
+	text-transform: lowercase;
+	/*line-height: 145%;*/
+	font-size: 16px;
+	font-variant: small-caps;
+}
+
+
+#bg-image {
+  /*background-image: url("../images/ferrariGarage.jpg");*/
+  background-image: url("paper3.jpg");
+  background-width: 100%;
+  background-height: 100%;
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: 50% -10%;
+  /*opacity: .7;*/
+  /*background-position: center;*/
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 15px;
+  background: #000000;
+  padding: 5px 10px 5px 10px;
+  /*border-right: solid #666666 0px;*/
+  /*border-bottom: solid #666666 0px;*/
+  /*border-left: solid #666666 0px;*/
+  text-decoration: none;
+}
+
+.col-half{
+  /*width: 5%;*/
+  width: 4.9%;
+  float: left;
+  /*border: 1px solid red;*/
+}
+
+.col-1{
+  width: 8.33333%;
+  float: left;
+  /*border: 1px solid red;*/
+}
+.col-2{
+  width: 16.66666%;
+  float: left;
+  border: 1px solid transparent;
+}
+.col-3{
+  width: 25%;
+  float: left;
+  border: 1px solid transparent;
+}
+.col-33{
+  width: 20%;
+  float: left;
+  border: 1px solid transparent;
+}
+.col-4{
+  width: 33.33333%;
+  float: left;
+}
+.col-5{
+  width: 41.66666%;
+  float: left;
+}
+.col-6{
+  width: 50.00%;
+  float: left;
+}
+.col-7{
+  width: 58.33333%;
+  float: left;
+}
+.col-8{
+  width: 66.66666%;
+  float: left;
+  border: 1px solid transparent;
+}
+.col-9{
+  width: 75.00%;
+  float: left;
+}
+.col-10{
+  width: 83.33333%;
+  float: left;
+}
+.col-11{
+  width: 91.66666%;
+  float: left;
+}
+.col-12{
+  width: 100.00%;
+  float: left;
+  border: 1px solid transparent;
+}
+
+.space {
+  padding-bottom: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+button{
+  background: beige;
+  potition: fixed;
+}
+
+.center{
+  text-align: center;
+}
