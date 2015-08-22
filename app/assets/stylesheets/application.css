@@ -31,71 +31,41 @@ body{
   /*padding-left:   14px; */
   position: 40% 40%;
 }
-/*.text2:first-letter{*/
-  /*text-transform: uppercase;*/
+.text2:first-letter{
+  text-transform: uppercase;
+}
+/*.header-padding-original{*/
+  /*padding-top: 10px;*/
 /*}*/
-.header-padding-original{
-  padding-top: 10px;
+.pad10{
+  padding-top: 10px; 
 }
-.header-padding{
-	padding-top: 20px;
+.pad20{
+  padding-top: 20px;
 }
-.education-padding-top{
-  padding-top: 80px;
-}
-.education-padding{
-	padding-top: 60px;
-}
-.content-padding{
-	padding-top: 10px;
-}
-.info-padding{
+.pad30{
 	padding-top: 30px;
 }
+.pad40{
+  padding-top: 40px;
+}
+.pad50{
+  padding-top: 50px;
+}
+.pad60{
+  padding-top: 60px;
+}
+.pad70{
+  padding-top: 70px;
+}
 
-.indent{
-	text-indent: 10px;
+.pad80{
+  padding-top: 80px;
 }
 
 
 
-.text2{
-  color: #424242;
-  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	text-align:center;
-	padding-top: 130px;
-	text-transform: lowercase;
-	/*line-height: 145%;*/
-	font-size: 55px;
-	font-variant: small-caps;
-}
-
-.text3{
-  color: #424242;
-  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	text-align:center;
-	/*margin: 50px auto;*/
-	text-transform: lowercase;
-	/*line-height: 145%;*/
-	font-size: 20px;
-	font-variant: small-caps;
-}
-
-.text4{
-  color: #424242;
-  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-	letter-spacing:0.1em;
-	/*text-align:center;*/
-	/*margin: 50px auto;*/
-	text-transform: lowercase;
-	/*line-height: 145%;*/
-	font-size: 30px;
-	font-variant: small-caps;
-}
-
-.text5{
+.text16{
   color: #424242;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
@@ -105,6 +75,39 @@ body{
 	/*line-height: 145%;*/
 	font-size: 16px;
 	font-variant: small-caps;
+}
+.text20{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  /*margin: 50px auto;*/
+  text-transform: lowercase;
+  /*line-height: 145%;*/
+  font-size: 20px;
+  font-variant: small-caps;
+}
+.text30{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  /*text-align:center;*/
+  /*margin: 50px auto;*/
+  text-transform: lowercase;
+  /*line-height: 145%;*/
+  font-size: 30px;
+  font-variant: small-caps;
+}
+.text55{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  padding-top: 130px;
+  text-transform: lowercase;
+  /*line-height: 145%;*/
+  font-size: 55px;
+  font-variant: small-caps;
 }
 
 
