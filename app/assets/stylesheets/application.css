@@ -64,7 +64,17 @@ body{
 }
 
 
-
+.text10{
+  color: #424242;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  /*text-align:center;*/
+  /*margin: 50px auto;*/
+  text-transform: lowercase;
+  /*line-height: 145%;*/
+  font-size: 10px;
+  font-variant: small-caps;
+}
 .text16{
   color: #424242;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
@@ -127,12 +137,14 @@ body{
 .btn {
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
-  border-radius: 6px;
-  font-family: Courier New;
-  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  color: black;
   font-size: 15px;
-  background: #000000;
+  background-color: transparent;
   padding: 5px 10px 5px 10px;
+  border-color: transparent;
+  float: right;
   /*border-right: solid #666666 0px;*/
   /*border-bottom: solid #666666 0px;*/
   /*border-left: solid #666666 0px;*/
@@ -179,18 +191,27 @@ body{
 .col-4{
   width: 33.33333%;
   float: left;
+  border: 1px solid transparent;
+}
+.col-44{
+  width: 17%;
+  float: left;
+  border: 1px solid transparent;
 }
 .col-5{
   width: 41.66666%;
   float: left;
+  border: 1px solid transparent;
 }
 .col-6{
   width: 50.00%;
   float: left;
+  border: 1px solid transparent;
 }
 .col-7{
   width: 58.33333%;
   float: left;
+  border: 1px solid transparent;
 }
 .col-8{
   width: 72.66666%;
@@ -200,10 +221,12 @@ body{
 .col-9{
   width: 75.00%;
   float: left;
+  border: 1px solid transparent;
 }
 .col-10{
   width: 83.33333%;
   float: left;
+  border: 1px solid transparent;
 }
 .col-11{
   width: 91.66666%;
