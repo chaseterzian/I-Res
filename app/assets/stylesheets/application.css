@@ -28,12 +28,12 @@ body{
 .links-right {
   /*float:          right;*/
   height:         28px;
-  /*padding-left:   14px; */
+  /*padding-left:   50%; */
   position: 40% 40%;
 }
 .links-rightc {
   /*float:          right;*/
-  height:         30px;
+  height:         32px;
   /*padding-left:   14px; */
   position: 40% 40%;
 }
