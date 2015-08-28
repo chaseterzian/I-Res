@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$('#download-resume-link').on('click', function() {
-		window.location = 'https://www.dropbox.com/s/kzpgo50phhhklmr/resume.pages?dl=0'
+		window.location = 'https://www.dropbox.com/s/2xntt28exg7o1wq/resume.pdf?dl=0'
 	});
 
 	$('#github-link').on('click', function() {
